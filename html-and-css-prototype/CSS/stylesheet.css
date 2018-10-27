@@ -153,20 +153,24 @@ input::placeholder {
 	width: 122px;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #777;
-	padding: 7px 0px;
+	padding: 8px 0px;
 	margin-left: 2px;
-	font-size: 13px;
-	font-weight: bolder;
+	font-size: 13.5px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
 }
 .lastButton2{
 	text-align: center;
 	width: 122px;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #777;
-	padding: 7px 0px;
+	padding: 8px 0px;
 	margin-left: 17px;
-	font-size: 13px;
-	font-weight: bolder;
+	font-size: 13.5px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
 }
 
 .lastButtons {
