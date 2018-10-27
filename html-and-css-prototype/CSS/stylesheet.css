@@ -121,10 +121,6 @@ input{
 	
 }
 
-/* input::-webkit-input-placeholder {
-    color: black;
-	font-weight: bold;
-} */
 input::placeholder {
 	font-weight: bold;
 }
