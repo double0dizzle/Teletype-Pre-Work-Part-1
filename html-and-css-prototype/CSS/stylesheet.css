@@ -118,7 +118,9 @@ h1 {
 input{
 	width: 100px;
 	margin-left: 20px;
-	padding: 13px 0px;
+	padding: 12px 0px;
+	font-size: 15px;
+	
 }
 
 input::-webkit-input-placeholder {
@@ -137,6 +139,11 @@ button{
 	font-size: 16px;
 	border-radius: 3px;
 	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif; 
+}
+
+#p3 {
+	margin-top: 5px;
+	color:#20A1D4;
 }
 
 
