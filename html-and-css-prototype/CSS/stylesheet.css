@@ -40,3 +40,53 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.topBar {
+	background: #474747;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	/* font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif; */
+    border-radius: 4px;
+    font-size: 13.5px;
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    padding: 13.5px 0px; 
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 264px;
+}
+
+/* .speech-bubble-ds p {
+    margin-bottom: 10px;
+}
+.speech-bubble-ds p:last-of-type {
+    margin-bottom: 0;
+} */
+
+.topBarArrow {
+    /* border-left: 21px solid transparent;
+    border-top: 20px solid rgba(0, 0, 0, 0.2); */
+    bottom: -25px;
+    position: absolute;
+    right: 20px;
+}
+/* .speech-bubble-ds-arrow::before {
+    border-left: 23px solid transparent;
+    border-top: 23px solid #474747;
+    bottom: 2px;
+    content: "";
+    position: absolute;
+    right: 5px; 
+} */
+.topBarArrow::after {
+    border-left: 13px solid transparent;
+	border-top: 21px solid #474747;
+	border-right: 13px solid transparent;
+    bottom: 18px;
+    content: "";
+    position: absolute;
+	right: 6px;
+	
+}
+
