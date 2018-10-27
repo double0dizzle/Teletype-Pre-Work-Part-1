@@ -128,7 +128,7 @@ input::-webkit-input-placeholder {
 	font-weight: bold;
 }
 
-button{
+.button1{
 	width: 100px;
 	margin-left: 20px;
 	padding: 13px 0px;
@@ -144,6 +144,31 @@ button{
 #p3 {
 	margin-top: 5px;
 	color:#20A1D4;
+	margin-bottom: 15px;
+}
+
+.lastButton1{
+	text-align: center;
+	width: 122px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	color: #777;
+	background-color: #eaeaea;
+	padding: 9px 0px;
+}
+.lastButton2{
+	text-align: center;
+	width: 122px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	color: #777;
+	background-color: #eaeaea;
+	padding: 9px 0px;
+	margin-left: 18px;
+}
+
+.lastButtons {
+	margin: 0 auto;
+	width: 266px;
+	margin-top: 12px;
 }
 
 
