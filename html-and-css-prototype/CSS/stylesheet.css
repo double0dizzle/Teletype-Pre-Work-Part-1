@@ -78,8 +78,7 @@ h1 {
 .form {
 	margin: 0 auto;
 	width: 264px;
-	border: 1px;
-	border-color: #eaeaea;
+	border: 1px solid #eaeaea;
 }
 
 .navbar {
@@ -89,7 +88,11 @@ h1 {
 	height: 12px;
 	border: 1px solid #eaeaea;
 	border-color: #eaeaea;
+}
 
+input::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
 }
 
 
