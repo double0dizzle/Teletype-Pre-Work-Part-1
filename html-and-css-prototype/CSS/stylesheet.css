@@ -85,6 +85,7 @@ h1 {
 	margin: 0 auto;
 	height: 11px;
 	float: left;
+	border-bottom: 1px solid #eaeaea;
 }
 
 .p1 {
@@ -115,13 +116,16 @@ h1 {
 input{
 	width: 100px;
 	margin-left: 20px;
-	padding: 12px 0px;
+	padding: 11px 0px;
 	font-size: 15px;
 	
 }
 
-input::-webkit-input-placeholder {
+/* input::-webkit-input-placeholder {
     color: black;
+	font-weight: bold;
+} */
+input::placeholder {
 	font-weight: bold;
 }
 
@@ -133,7 +137,7 @@ input::-webkit-input-placeholder {
     border: none;
     color: white;
     text-align: center;
-	font-size: 16px;
+	font-size: 15px;
 	border-radius: 3px;
 	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif; 
 }
@@ -147,22 +151,22 @@ input::-webkit-input-placeholder {
 .lastButton1{
 	text-align: center;
 	width: 122px;
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #777;
-	background-color: #eaeaea;
-	padding: 8px 0px;
+	padding: 7px 0px;
 	margin-left: 2px;
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: bolder;
 }
 .lastButton2{
 	text-align: center;
 	width: 122px;
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #777;
-	background-color: #eaeaea;
-	padding: 8px 0px;
+	padding: 7px 0px;
 	margin-left: 17px;
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: bolder;
 }
 
 .lastButtons {
