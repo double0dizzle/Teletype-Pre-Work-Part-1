@@ -90,9 +90,24 @@ h1 {
 	border-color: #eaeaea;
 }
 
+input{
+	width: 100px;
+	margin-left: 20px;
+}
+
 input::-webkit-input-placeholder {
     color: black;
-    font-weight: bold;
+	font-weight: bold;
+}
+
+.p1 {
+	font-size: 13.5px;
+	color: #777;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+}
+
+.b1{
+	color: red;
 }
 
 
